@@ -50,11 +50,11 @@ select <- dplyr::select
 # Load clean data to avoid multiple downloads -----
 load(file = "clean_data/clean_needs_assessment_data.rda")
 
-# # Load custom functions
-# source(
-#   'script/custom_functions.R', 
-#   encoding = 'UTF-8'
-# )
+# Load custom functions
+source(
+  'script/toplineplot.R',
+  encoding = 'UTF-8'
+)
 
 #  Packages  ----  
 suppressMessages(
