@@ -1,6 +1,8 @@
 # History files
 .Rhistory
 .Rapp.history
+.Rhistory
+sahara2-impact-analysis.Rproj
 
 # Session Data files
 .RData
@@ -47,3 +49,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+packrat/lib*/
+
+# Packrat files 
+packrat/
+
+# Any other large files or generated artifacts
+Impact_analysis.docx
+
+*.Rproj
